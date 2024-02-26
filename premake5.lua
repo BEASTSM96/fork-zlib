@@ -1,4 +1,4 @@
-project "Tracy"
+project "zlib"
 	kind "StaticLib"
 	language "C"
 
@@ -7,8 +7,8 @@ project "Tracy"
 
 	files
 	{
-		"**.h",
-		"**.c"
+		"*.h",
+		"*.c"
 	}
 
 	defines 
